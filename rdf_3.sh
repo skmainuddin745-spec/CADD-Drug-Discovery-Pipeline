@@ -1,0 +1,1 @@
+"${SCHRODINGER}/run" rdf.py -sel1 '((chain.name B)) AND ((atom.ele O))' -pos-type1 atom -rmax 12.0 -dr 0.1 -s 0:1000:1 -sel2 '(((res.pt  "T3P ")) ) AND ((atom.ele H))' -pos-type2 atom desmond_md_job_3-out.cms .. rdf_3.dat -JOBNAME rdf_3 -HOST localhost -TMPLAUNCHDIR
